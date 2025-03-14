@@ -1,0 +1,29 @@
+[2025-03-11T10:33:45.640+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-11T10:33:45.916+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: daily_product_analysis.staffs scheduled__2025-03-10T00:00:00+00:00 [queued]>
+[2025-03-11T10:33:46.156+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: daily_product_analysis.staffs scheduled__2025-03-10T00:00:00+00:00 [queued]>
+[2025-03-11T10:33:46.203+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-03-11T10:33:47.996+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): staffs> on 2025-03-10 00:00:00+00:00
+[2025-03-11T10:33:48.062+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=9314) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-11T10:33:48.090+0000] {standard_task_runner.py:72} INFO - Started process 9342 to run task
+[2025-03-11T10:33:48.130+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'daily_product_analysis', 'staffs', 'scheduled__2025-03-10T00:00:00+00:00', '--job-id', '289', '--raw', '--subdir', 'DAGS_FOLDER/scheduled.py', '--cfg-path', '/tmp/tmpg376u135']
+[2025-03-11T10:33:48.144+0000] {standard_task_runner.py:105} INFO - Job 289: Subtask staffs
+[2025-03-11T10:33:48.852+0000] {task_command.py:467} INFO - Running <TaskInstance: daily_product_analysis.staffs scheduled__2025-03-10T00:00:00+00:00 [running]> on host efacfdd0be48
+[2025-03-11T10:33:49.754+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='daily_product_analysis' AIRFLOW_CTX_TASK_ID='staffs' AIRFLOW_CTX_EXECUTION_DATE='2025-03-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-10T00:00:00+00:00'
+[2025-03-11T10:33:49.773+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-11T10:33:49.778+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-11T10:33:49.781+0000] {logging_mixin.py:190} INFO - Current task name:staffs state:running start_date:2025-03-11 10:33:45.953490+00:00
+[2025-03-11T10:33:49.799+0000] {logging_mixin.py:190} INFO - Dag name:daily_product_analysis and current dag run status:running
+[2025-03-11T10:33:49.802+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-11T10:33:50.323+0000] {logging_mixin.py:190} INFO - Validation successful. Found 10 staff records.
+[2025-03-11T10:33:50.331+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-11T10:33:50.568+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-11T10:33:50.569+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=daily_product_analysis, task_id=staffs, run_id=scheduled__2025-03-10T00:00:00+00:00, execution_date=20250310T000000, start_date=20250311T103345, end_date=20250311T103350
+[2025-03-11T10:33:51.080+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-11T10:33:51.091+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-11T10:33:51.096+0000] {logging_mixin.py:190} INFO - Dag name:daily_product_analysis queued_at:2025-03-11 10:32:44.582675+00:00
+[2025-03-11T10:33:51.098+0000] {logging_mixin.py:190} INFO - Task hostname:efacfdd0be48 operator:PythonOperator
+[2025-03-11T10:33:51.333+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-11T10:33:51.924+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T10:33:51.969+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

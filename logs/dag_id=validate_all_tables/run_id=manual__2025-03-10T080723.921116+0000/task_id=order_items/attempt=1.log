@@ -1,0 +1,29 @@
+[2025-03-10T08:08:36.385+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-10T08:08:36.576+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: validate_all_tables.order_items manual__2025-03-10T08:07:23.921116+00:00 [queued]>
+[2025-03-10T08:08:37.237+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: validate_all_tables.order_items manual__2025-03-10T08:07:23.921116+00:00 [queued]>
+[2025-03-10T08:08:37.238+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-03-10T08:08:37.410+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): order_items> on 2025-03-10 08:07:23.921116+00:00
+[2025-03-10T08:08:37.443+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=4151) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-10T08:08:37.486+0000] {standard_task_runner.py:72} INFO - Started process 4162 to run task
+[2025-03-10T08:08:37.448+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'validate_all_tables', 'order_items', 'manual__2025-03-10T08:07:23.921116+00:00', '--job-id', '135', '--raw', '--subdir', 'DAGS_FOLDER/validate_all_tables_dag.py', '--cfg-path', '/tmp/tmpyfe0rhzi']
+[2025-03-10T08:08:37.536+0000] {standard_task_runner.py:105} INFO - Job 135: Subtask order_items
+[2025-03-10T08:08:37.829+0000] {task_command.py:467} INFO - Running <TaskInstance: validate_all_tables.order_items manual__2025-03-10T08:07:23.921116+00:00 [running]> on host efacfdd0be48
+[2025-03-10T08:08:38.556+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='validate_all_tables' AIRFLOW_CTX_TASK_ID='order_items' AIRFLOW_CTX_EXECUTION_DATE='2025-03-10T08:07:23.921116+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-10T08:07:23.921116+00:00'
+[2025-03-10T08:08:38.563+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-10T08:08:38.570+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-10T08:08:38.576+0000] {logging_mixin.py:190} INFO - Current task name:order_items state:running start_date:2025-03-10 08:08:36.581446+00:00
+[2025-03-10T08:08:38.577+0000] {logging_mixin.py:190} INFO - Dag name:validate_all_tables and current dag run status:running
+[2025-03-10T08:08:38.579+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-10T08:08:38.863+0000] {logging_mixin.py:190} INFO - Order items validation and cleaning successful
+[2025-03-10T08:08:38.867+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-10T08:08:38.925+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-10T08:08:38.927+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=validate_all_tables, task_id=order_items, run_id=manual__2025-03-10T08:07:23.921116+00:00, execution_date=20250310T080723, start_date=20250310T080836, end_date=20250310T080838
+[2025-03-10T08:08:39.109+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-10T08:08:39.119+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-10T08:08:39.120+0000] {logging_mixin.py:190} INFO - Dag name:validate_all_tables queued_at:2025-03-10 08:07:23.959733+00:00
+[2025-03-10T08:08:39.121+0000] {logging_mixin.py:190} INFO - Task hostname:efacfdd0be48 operator:PythonOperator
+[2025-03-10T08:08:39.231+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-10T08:08:39.338+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-10T08:08:39.398+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

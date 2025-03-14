@@ -1,0 +1,32 @@
+[2025-03-12T09:28:24.114+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-12T09:28:24.203+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weekly_category_analysis.category_sales_analysis manual__2025-03-12T09:28:02.351344+00:00 [queued]>
+[2025-03-12T09:28:24.262+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weekly_category_analysis.category_sales_analysis manual__2025-03-12T09:28:02.351344+00:00 [queued]>
+[2025-03-12T09:28:24.264+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-03-12T09:28:24.305+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): category_sales_analysis> on 2025-03-12 09:28:02.351344+00:00
+[2025-03-12T09:28:24.319+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=272) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-12T09:28:24.323+0000] {standard_task_runner.py:72} INFO - Started process 278 to run task
+[2025-03-12T09:28:24.328+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'weekly_category_analysis', 'category_sales_analysis', 'manual__2025-03-12T09:28:02.351344+00:00', '--job-id', '364', '--raw', '--subdir', 'DAGS_FOLDER/s3_data.py', '--cfg-path', '/tmp/tmpk6xw47je']
+[2025-03-12T09:28:24.334+0000] {standard_task_runner.py:105} INFO - Job 364: Subtask category_sales_analysis
+[2025-03-12T09:28:24.478+0000] {task_command.py:467} INFO - Running <TaskInstance: weekly_category_analysis.category_sales_analysis manual__2025-03-12T09:28:02.351344+00:00 [running]> on host fc342882eb4f
+[2025-03-12T09:28:24.851+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='weekly_category_analysis' AIRFLOW_CTX_TASK_ID='category_sales_analysis' AIRFLOW_CTX_EXECUTION_DATE='2025-03-12T09:28:02.351344+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-12T09:28:02.351344+00:00'
+[2025-03-12T09:28:24.856+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-12T09:28:24.857+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-12T09:28:24.858+0000] {logging_mixin.py:190} INFO - Current task name:category_sales_analysis state:running start_date:2025-03-12 09:28:24.207322+00:00
+[2025-03-12T09:28:24.859+0000] {logging_mixin.py:190} INFO - Dag name:weekly_category_analysis and current dag run status:running
+[2025-03-12T09:28:24.860+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-12T09:28:25.714+0000] {httpchecksum.py:481} INFO - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+[2025-03-12T09:28:26.030+0000] {httpchecksum.py:481} INFO - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+[2025-03-12T09:28:26.242+0000] {httpchecksum.py:481} INFO - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+[2025-03-12T09:28:26.897+0000] {logging_mixin.py:190} INFO - Category sales analysis completed successfully
+[2025-03-12T09:28:26.898+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-12T09:28:26.917+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-12T09:28:26.919+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=weekly_category_analysis, task_id=category_sales_analysis, run_id=manual__2025-03-12T09:28:02.351344+00:00, execution_date=20250312T092802, start_date=20250312T092824, end_date=20250312T092826
+[2025-03-12T09:28:26.971+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-12T09:28:26.973+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-12T09:28:26.975+0000] {logging_mixin.py:190} INFO - Dag name:weekly_category_analysis queued_at:2025-03-12 09:28:02.376103+00:00
+[2025-03-12T09:28:26.976+0000] {logging_mixin.py:190} INFO - Task hostname:fc342882eb4f operator:PythonOperator
+[2025-03-12T09:28:27.015+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-12T09:28:27.095+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-12T09:28:27.102+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,113 @@
+[2025-03-10T06:14:21.774+0000] {processor.py:186} INFO - Started process (PID=24526) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:14:21.790+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:14:21.810+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:14:21.794+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:14:22.135+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:14:22.860+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:14:22.858+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:categories_data_validation
+[2025-03-10T06:14:23.056+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:14:23.055+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:categories_data_validation
+[2025-03-10T06:14:23.146+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:14:23.145+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:categories_data_validation
+[2025-03-10T06:14:23.195+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:14:23.194+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:categories_data_validation
+[2025-03-10T06:14:23.231+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:14:23.230+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:categories_data_validation
+[2025-03-10T06:14:23.275+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:14:23.275+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:categories_data_validation
+[2025-03-10T06:14:23.351+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:14:23.350+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:categories_data_validation
+[2025-03-10T06:14:23.355+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:14:23.355+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:14:23.430+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:14:23.429+0000] {dag.py:3262} INFO - Creating ORM DAG for categories_data_validation
+[2025-03-10T06:14:23.520+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:14:23.520+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:14:23.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 2.167 seconds
+[2025-03-10T06:14:55.889+0000] {processor.py:186} INFO - Started process (PID=24575) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:14:55.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:14:55.933+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:14:55.932+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:14:56.299+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:14:56.436+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:14:56.436+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:14:56.621+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:14:56.620+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:14:56.777+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 0.924 seconds
+[2025-03-10T06:15:30.580+0000] {processor.py:186} INFO - Started process (PID=24627) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:15:30.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:15:30.714+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:15:30.713+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:15:30.860+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:15:30.990+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:15:30.989+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:15:31.139+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:15:31.139+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:15:31.240+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 0.720 seconds
+[2025-03-10T06:16:02.690+0000] {processor.py:186} INFO - Started process (PID=24691) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:16:02.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:16:02.714+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:16:02.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:16:02.779+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:16:02.847+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:16:02.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:16:02.992+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:16:02.992+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:16:03.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 0.414 seconds
+[2025-03-10T06:16:36.464+0000] {processor.py:186} INFO - Started process (PID=24754) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:16:36.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:16:36.471+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:16:36.470+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:16:36.544+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:16:36.599+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:16:36.596+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:16:36.687+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:16:36.686+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:16:36.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 0.317 seconds
+[2025-03-10T06:17:07.120+0000] {processor.py:186} INFO - Started process (PID=24817) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:17:07.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:17:07.133+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:17:07.133+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:17:07.181+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:17:07.262+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:17:07.261+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:17:07.405+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:17:07.404+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:17:07.514+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 0.426 seconds
+[2025-03-10T06:17:37.973+0000] {processor.py:186} INFO - Started process (PID=24882) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:17:37.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:17:37.978+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:17:37.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:17:38.015+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:17:38.049+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:17:38.049+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:17:38.167+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:17:38.166+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:17:38.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 0.297 seconds
+[2025-03-10T06:18:08.384+0000] {processor.py:186} INFO - Started process (PID=24947) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:18:08.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:18:08.388+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:18:08.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:18:08.415+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:18:08.450+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:18:08.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:18:08.498+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:18:08.498+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:18:08.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 0.153 seconds
+[2025-03-10T06:18:39.046+0000] {processor.py:186} INFO - Started process (PID=25012) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:18:39.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:18:39.051+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:18:39.051+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:18:39.085+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:18:39.123+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:18:39.122+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:18:39.202+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:18:39.201+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:18:39.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 0.222 seconds
+[2025-03-10T06:19:10.124+0000] {processor.py:186} INFO - Started process (PID=25077) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:19:10.126+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:19:10.131+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:10.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:19:10.212+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:19:10.270+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:10.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:19:10.366+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:10.366+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:19:10.430+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 0.329 seconds
+[2025-03-10T06:19:40.949+0000] {processor.py:186} INFO - Started process (PID=25147) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:19:40.951+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:19:40.954+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:40.953+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:19:40.998+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:19:41.050+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:41.049+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:19:41.124+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:41.123+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:19:41.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 0.271 seconds
+[2025-03-10T06:20:11.736+0000] {processor.py:186} INFO - Started process (PID=25216) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:20:11.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:20:11.741+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:11.740+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:20:11.771+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:20:11.804+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:11.804+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:20:11.854+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:11.853+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:20:11.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 0.160 seconds
+[2025-03-10T06:20:46.496+0000] {processor.py:186} INFO - Started process (PID=25290) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:20:46.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:20:46.509+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:46.508+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:20:46.612+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:20:46.698+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:46.697+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:20:46.803+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:46.802+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:20:46.889+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 0.410 seconds
+[2025-03-10T06:21:18.630+0000] {processor.py:186} INFO - Started process (PID=25352) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:21:18.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:21:18.662+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:18.661+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:21:18.791+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:21:18.918+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:18.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:21:19.084+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:19.083+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:21:19.274+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 0.681 seconds
+[2025-03-10T06:21:49.610+0000] {processor.py:186} INFO - Started process (PID=25421) to work on /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:21:49.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/categories_dag.py for tasks to queue
+[2025-03-10T06:21:49.629+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:49.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:21:49.666+0000] {processor.py:925} INFO - DAG(s) 'categories_data_validation' retrieved from /opt/airflow/dags/categories_dag.py
+[2025-03-10T06:21:49.707+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:49.706+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:21:49.775+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:49.774+0000] {dag.py:4180} INFO - Setting next_dagrun for categories_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:21:49.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/categories_dag.py took 0.231 seconds

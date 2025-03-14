@@ -1,0 +1,29 @@
+[2025-03-12T09:58:30.783+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-12T09:58:31.670+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weekly_category_analysis.order_items manual__2025-03-12T09:52:51.626851+00:00 [queued]>
+[2025-03-12T09:58:31.800+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weekly_category_analysis.order_items manual__2025-03-12T09:52:51.626851+00:00 [queued]>
+[2025-03-12T09:58:31.827+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-03-12T09:58:31.981+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): order_items> on 2025-03-12 09:52:51.626851+00:00
+[2025-03-12T09:58:32.030+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=295) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-12T09:58:32.043+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'weekly_category_analysis', 'order_items', 'manual__2025-03-12T09:52:51.626851+00:00', '--job-id', '410', '--raw', '--subdir', 'DAGS_FOLDER/data/scheduled.py', '--cfg-path', '/tmp/tmpt7yf4253']
+[2025-03-12T09:58:32.073+0000] {standard_task_runner.py:105} INFO - Job 410: Subtask order_items
+[2025-03-12T09:58:32.057+0000] {standard_task_runner.py:72} INFO - Started process 299 to run task
+[2025-03-12T09:58:32.514+0000] {task_command.py:467} INFO - Running <TaskInstance: weekly_category_analysis.order_items manual__2025-03-12T09:52:51.626851+00:00 [running]> on host b404e9833d11
+[2025-03-12T09:58:33.186+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='weekly_category_analysis' AIRFLOW_CTX_TASK_ID='order_items' AIRFLOW_CTX_EXECUTION_DATE='2025-03-12T09:52:51.626851+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-12T09:52:51.626851+00:00'
+[2025-03-12T09:58:33.205+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-12T09:58:33.222+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-12T09:58:33.271+0000] {logging_mixin.py:190} INFO - Current task name:order_items state:running start_date:2025-03-12 09:58:31.697329+00:00
+[2025-03-12T09:58:33.303+0000] {logging_mixin.py:190} INFO - Dag name:weekly_category_analysis and current dag run status:running
+[2025-03-12T09:58:33.319+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-12T09:58:33.666+0000] {logging_mixin.py:190} INFO - Validation successful. Found 4722 order item records.
+[2025-03-12T09:58:33.672+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-12T09:58:33.731+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-12T09:58:33.737+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=weekly_category_analysis, task_id=order_items, run_id=manual__2025-03-12T09:52:51.626851+00:00, execution_date=20250312T095251, start_date=20250312T095831, end_date=20250312T095833
+[2025-03-12T09:58:33.882+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-12T09:58:33.888+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-12T09:58:33.889+0000] {logging_mixin.py:190} INFO - Dag name:weekly_category_analysis queued_at:2025-03-12 09:52:51.692009+00:00
+[2025-03-12T09:58:33.891+0000] {logging_mixin.py:190} INFO - Task hostname:b404e9833d11 operator:PythonOperator
+[2025-03-12T09:58:33.952+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-12T09:58:34.161+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-12T09:58:34.182+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

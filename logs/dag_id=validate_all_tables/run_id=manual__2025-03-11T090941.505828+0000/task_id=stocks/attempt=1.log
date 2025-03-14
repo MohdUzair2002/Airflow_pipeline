@@ -1,0 +1,29 @@
+[2025-03-11T09:10:16.873+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-11T09:10:17.285+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: validate_all_tables.stocks manual__2025-03-11T09:09:41.505828+00:00 [queued]>
+[2025-03-11T09:10:17.338+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: validate_all_tables.stocks manual__2025-03-11T09:09:41.505828+00:00 [queued]>
+[2025-03-11T09:10:17.339+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-03-11T09:10:17.374+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): stocks> on 2025-03-11 09:09:41.505828+00:00
+[2025-03-11T09:10:17.396+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=8219) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-11T09:10:17.399+0000] {standard_task_runner.py:72} INFO - Started process 8224 to run task
+[2025-03-11T09:10:17.401+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'validate_all_tables', 'stocks', 'manual__2025-03-11T09:09:41.505828+00:00', '--job-id', '229', '--raw', '--subdir', 'DAGS_FOLDER/validate_all_tables_dag.py', '--cfg-path', '/tmp/tmpdj7u1g21']
+[2025-03-11T09:10:17.403+0000] {standard_task_runner.py:105} INFO - Job 229: Subtask stocks
+[2025-03-11T09:10:17.501+0000] {task_command.py:467} INFO - Running <TaskInstance: validate_all_tables.stocks manual__2025-03-11T09:09:41.505828+00:00 [running]> on host efacfdd0be48
+[2025-03-11T09:10:17.763+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='validate_all_tables' AIRFLOW_CTX_TASK_ID='stocks' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T09:09:41.505828+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T09:09:41.505828+00:00'
+[2025-03-11T09:10:17.765+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-11T09:10:17.766+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-11T09:10:17.767+0000] {logging_mixin.py:190} INFO - Current task name:stocks state:running start_date:2025-03-11 09:10:17.286882+00:00
+[2025-03-11T09:10:17.768+0000] {logging_mixin.py:190} INFO - Dag name:validate_all_tables and current dag run status:running
+[2025-03-11T09:10:17.769+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-11T09:10:17.804+0000] {logging_mixin.py:190} INFO - Validation successful. Found 939 stock records.
+[2025-03-11T09:10:17.806+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-11T09:10:17.844+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-11T09:10:17.845+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=validate_all_tables, task_id=stocks, run_id=manual__2025-03-11T09:09:41.505828+00:00, execution_date=20250311T090941, start_date=20250311T091017, end_date=20250311T091017
+[2025-03-11T09:10:17.931+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-11T09:10:17.932+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-11T09:10:17.934+0000] {logging_mixin.py:190} INFO - Dag name:validate_all_tables queued_at:2025-03-11 09:09:41.563044+00:00
+[2025-03-11T09:10:17.935+0000] {logging_mixin.py:190} INFO - Task hostname:efacfdd0be48 operator:PythonOperator
+[2025-03-11T09:10:17.980+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-11T09:10:18.055+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T09:10:18.098+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

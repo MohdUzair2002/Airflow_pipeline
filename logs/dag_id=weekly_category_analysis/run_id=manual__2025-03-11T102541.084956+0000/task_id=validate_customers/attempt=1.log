@@ -1,0 +1,28 @@
+[2025-03-11T10:25:52.749+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-11T10:25:52.879+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weekly_category_analysis.validate_customers manual__2025-03-11T10:25:41.084956+00:00 [queued]>
+[2025-03-11T10:25:52.958+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weekly_category_analysis.validate_customers manual__2025-03-11T10:25:41.084956+00:00 [queued]>
+[2025-03-11T10:25:52.960+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-03-11T10:25:53.872+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): validate_customers> on 2025-03-11 10:25:41.084956+00:00
+[2025-03-11T10:25:53.895+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=9156) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-11T10:25:53.909+0000] {standard_task_runner.py:72} INFO - Started process 9169 to run task
+[2025-03-11T10:25:53.900+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'weekly_category_analysis', 'validate_customers', 'manual__2025-03-11T10:25:41.084956+00:00', '--job-id', '268', '--raw', '--subdir', 'DAGS_FOLDER/scheduled.py', '--cfg-path', '/tmp/tmpkqepwrkk']
+[2025-03-11T10:25:53.956+0000] {standard_task_runner.py:105} INFO - Job 268: Subtask validate_customers
+[2025-03-11T10:25:54.175+0000] {task_command.py:467} INFO - Running <TaskInstance: weekly_category_analysis.validate_customers manual__2025-03-11T10:25:41.084956+00:00 [running]> on host efacfdd0be48
+[2025-03-11T10:25:54.551+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='weekly_category_analysis' AIRFLOW_CTX_TASK_ID='validate_customers' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T10:25:41.084956+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T10:25:41.084956+00:00'
+[2025-03-11T10:25:54.554+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-11T10:25:54.558+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-11T10:25:54.559+0000] {logging_mixin.py:190} INFO - Current task name:validate_customers state:running start_date:2025-03-11 10:25:52.884893+00:00
+[2025-03-11T10:25:54.570+0000] {logging_mixin.py:190} INFO - Dag name:weekly_category_analysis and current dag run status:running
+[2025-03-11T10:25:54.573+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-11T10:25:54.644+0000] {logging_mixin.py:190} INFO - Validation successful. Found 1445 customer records.
+[2025-03-11T10:25:54.645+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-11T10:25:54.699+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-11T10:25:54.701+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=weekly_category_analysis, task_id=validate_customers, run_id=manual__2025-03-11T10:25:41.084956+00:00, execution_date=20250311T102541, start_date=20250311T102552, end_date=20250311T102554
+[2025-03-11T10:25:54.781+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-11T10:25:54.782+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-11T10:25:54.783+0000] {logging_mixin.py:190} INFO - Dag name:weekly_category_analysis queued_at:2025-03-11 10:25:41.129480+00:00
+[2025-03-11T10:25:54.784+0000] {logging_mixin.py:190} INFO - Task hostname:efacfdd0be48 operator:PythonOperator
+[2025-03-11T10:25:54.830+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-11T10:25:54.856+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

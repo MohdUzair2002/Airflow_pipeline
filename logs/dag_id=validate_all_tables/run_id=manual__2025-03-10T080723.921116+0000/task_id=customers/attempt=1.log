@@ -1,0 +1,29 @@
+[2025-03-10T08:07:49.713+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-10T08:07:51.073+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: validate_all_tables.customers manual__2025-03-10T08:07:23.921116+00:00 [queued]>
+[2025-03-10T08:07:51.199+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: validate_all_tables.customers manual__2025-03-10T08:07:23.921116+00:00 [queued]>
+[2025-03-10T08:07:51.212+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-03-10T08:07:51.465+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): customers> on 2025-03-10 08:07:23.921116+00:00
+[2025-03-10T08:07:51.545+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=4112) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-10T08:07:51.582+0000] {standard_task_runner.py:72} INFO - Started process 4131 to run task
+[2025-03-10T08:07:51.598+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'validate_all_tables', 'customers', 'manual__2025-03-10T08:07:23.921116+00:00', '--job-id', '126', '--raw', '--subdir', 'DAGS_FOLDER/validate_all_tables_dag.py', '--cfg-path', '/tmp/tmp5awiih95']
+[2025-03-10T08:07:51.612+0000] {standard_task_runner.py:105} INFO - Job 126: Subtask customers
+[2025-03-10T08:07:52.475+0000] {task_command.py:467} INFO - Running <TaskInstance: validate_all_tables.customers manual__2025-03-10T08:07:23.921116+00:00 [running]> on host efacfdd0be48
+[2025-03-10T08:07:54.112+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='validate_all_tables' AIRFLOW_CTX_TASK_ID='customers' AIRFLOW_CTX_EXECUTION_DATE='2025-03-10T08:07:23.921116+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-10T08:07:23.921116+00:00'
+[2025-03-10T08:07:54.130+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-10T08:07:54.143+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-10T08:07:54.169+0000] {logging_mixin.py:190} INFO - Current task name:customers state:running start_date:2025-03-10 08:07:51.088473+00:00
+[2025-03-10T08:07:54.197+0000] {logging_mixin.py:190} INFO - Dag name:validate_all_tables and current dag run status:running
+[2025-03-10T08:07:54.213+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-10T08:07:55.189+0000] {logging_mixin.py:190} INFO - Customers validation and cleaning successful
+[2025-03-10T08:07:55.192+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-10T08:07:55.381+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-10T08:07:55.458+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=validate_all_tables, task_id=customers, run_id=manual__2025-03-10T08:07:23.921116+00:00, execution_date=20250310T080723, start_date=20250310T080751, end_date=20250310T080755
+[2025-03-10T08:07:55.821+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-10T08:07:55.836+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-10T08:07:55.859+0000] {logging_mixin.py:190} INFO - Dag name:validate_all_tables queued_at:2025-03-10 08:07:23.959733+00:00
+[2025-03-10T08:07:55.874+0000] {logging_mixin.py:190} INFO - Task hostname:efacfdd0be48 operator:PythonOperator
+[2025-03-10T08:07:56.132+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-10T08:07:56.483+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-03-10T08:07:56.617+0000] {standard_task_runner.py:217} INFO - Process not found (most likely exited), stop collecting metrics

@@ -1,0 +1,29 @@
+[2025-03-12T15:05:25.128+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-12T15:05:25.221+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: validate_all_tables.categories scheduled__2025-03-05T13:00:00+00:00 [queued]>
+[2025-03-12T15:05:25.273+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: validate_all_tables.categories scheduled__2025-03-05T13:00:00+00:00 [queued]>
+[2025-03-12T15:05:25.312+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-03-12T15:05:25.436+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): categories> on 2025-03-05 13:00:00+00:00
+[2025-03-12T15:05:25.483+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1276) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-12T15:05:25.503+0000] {standard_task_runner.py:72} INFO - Started process 1300 to run task
+[2025-03-12T15:05:25.497+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'validate_all_tables', 'categories', 'scheduled__2025-03-05T13:00:00+00:00', '--job-id', '481', '--raw', '--subdir', 'DAGS_FOLDER/s3_data.py', '--cfg-path', '/tmp/tmp7um1dfky']
+[2025-03-12T15:05:25.537+0000] {standard_task_runner.py:105} INFO - Job 481: Subtask categories
+[2025-03-12T15:05:26.054+0000] {task_command.py:467} INFO - Running <TaskInstance: validate_all_tables.categories scheduled__2025-03-05T13:00:00+00:00 [running]> on host b404e9833d11
+[2025-03-12T15:05:26.685+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='validate_all_tables' AIRFLOW_CTX_TASK_ID='categories' AIRFLOW_CTX_EXECUTION_DATE='2025-03-05T13:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-05T13:00:00+00:00'
+[2025-03-12T15:05:26.692+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-12T15:05:26.704+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-12T15:05:26.705+0000] {logging_mixin.py:190} INFO - Current task name:categories state:running start_date:2025-03-12 15:05:25.227707+00:00
+[2025-03-12T15:05:26.706+0000] {logging_mixin.py:190} INFO - Dag name:validate_all_tables and current dag run status:running
+[2025-03-12T15:05:26.707+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-12T15:05:28.110+0000] {httpchecksum.py:481} INFO - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+[2025-03-12T15:05:28.150+0000] {logging_mixin.py:190} INFO - Validation successful. Found 7 category records.
+[2025-03-12T15:05:28.163+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-12T15:05:28.205+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-12T15:05:28.206+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=validate_all_tables, task_id=categories, run_id=scheduled__2025-03-05T13:00:00+00:00, execution_date=20250305T130000, start_date=20250312T150525, end_date=20250312T150528
+[2025-03-12T15:05:28.292+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-12T15:05:28.302+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-12T15:05:28.313+0000] {logging_mixin.py:190} INFO - Dag name:validate_all_tables queued_at:2025-03-12 15:04:59.240294+00:00
+[2025-03-12T15:05:28.323+0000] {logging_mixin.py:190} INFO - Task hostname:b404e9833d11 operator:PythonOperator
+[2025-03-12T15:05:28.370+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-12T15:05:28.422+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,50 @@
+[2025-03-10T06:19:19.585+0000] {processor.py:186} INFO - Started process (PID=25098) to work on /opt/airflow/dags/products_dag.py
+[2025-03-10T06:19:19.589+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/products_dag.py for tasks to queue
+[2025-03-10T06:19:19.592+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:19.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/products_dag.py
+[2025-03-10T06:19:19.788+0000] {processor.py:925} INFO - DAG(s) 'products_data_validation' retrieved from /opt/airflow/dags/products_dag.py
+[2025-03-10T06:19:20.570+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.568+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:products_data_validation
+[2025-03-10T06:19:20.615+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.614+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:products_data_validation
+[2025-03-10T06:19:20.651+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.650+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:products_data_validation
+[2025-03-10T06:19:20.686+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.685+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:products_data_validation
+[2025-03-10T06:19:20.715+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.714+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:products_data_validation
+[2025-03-10T06:19:20.757+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.756+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:products_data_validation
+[2025-03-10T06:19:20.826+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.825+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:products_data_validation
+[2025-03-10T06:19:20.831+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.829+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:19:20.921+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.920+0000] {dag.py:3262} INFO - Creating ORM DAG for products_data_validation
+[2025-03-10T06:19:20.955+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.954+0000] {dag.py:4180} INFO - Setting next_dagrun for products_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:19:21.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/products_dag.py took 1.452 seconds
+[2025-03-10T06:19:51.458+0000] {processor.py:186} INFO - Started process (PID=25168) to work on /opt/airflow/dags/products_dag.py
+[2025-03-10T06:19:51.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/products_dag.py for tasks to queue
+[2025-03-10T06:19:51.463+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:51.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/products_dag.py
+[2025-03-10T06:19:51.506+0000] {processor.py:925} INFO - DAG(s) 'products_data_validation' retrieved from /opt/airflow/dags/products_dag.py
+[2025-03-10T06:19:51.558+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:51.558+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:19:51.658+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:51.657+0000] {dag.py:4180} INFO - Setting next_dagrun for products_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:19:51.757+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/products_dag.py took 0.312 seconds
+[2025-03-10T06:20:22.405+0000] {processor.py:186} INFO - Started process (PID=25239) to work on /opt/airflow/dags/products_dag.py
+[2025-03-10T06:20:22.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/products_dag.py for tasks to queue
+[2025-03-10T06:20:22.411+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:22.410+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/products_dag.py
+[2025-03-10T06:20:22.479+0000] {processor.py:925} INFO - DAG(s) 'products_data_validation' retrieved from /opt/airflow/dags/products_dag.py
+[2025-03-10T06:20:22.536+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:22.536+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:20:22.679+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:22.678+0000] {dag.py:4180} INFO - Setting next_dagrun for products_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:20:22.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/products_dag.py took 0.438 seconds
+[2025-03-10T06:20:53.219+0000] {processor.py:186} INFO - Started process (PID=25309) to work on /opt/airflow/dags/products_dag.py
+[2025-03-10T06:20:53.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/products_dag.py for tasks to queue
+[2025-03-10T06:20:53.223+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:53.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/products_dag.py
+[2025-03-10T06:20:53.252+0000] {processor.py:925} INFO - DAG(s) 'products_data_validation' retrieved from /opt/airflow/dags/products_dag.py
+[2025-03-10T06:20:53.279+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:53.279+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:20:53.326+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:53.325+0000] {dag.py:4180} INFO - Setting next_dagrun for products_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:20:53.365+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/products_dag.py took 0.160 seconds
+[2025-03-10T06:21:25.650+0000] {processor.py:186} INFO - Started process (PID=25366) to work on /opt/airflow/dags/products_dag.py
+[2025-03-10T06:21:25.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/products_dag.py for tasks to queue
+[2025-03-10T06:21:25.665+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:25.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/products_dag.py
+[2025-03-10T06:21:25.749+0000] {processor.py:925} INFO - DAG(s) 'products_data_validation' retrieved from /opt/airflow/dags/products_dag.py
+[2025-03-10T06:21:25.862+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:25.861+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:21:26.030+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:26.029+0000] {dag.py:4180} INFO - Setting next_dagrun for products_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:21:26.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/products_dag.py took 0.574 seconds
+[2025-03-10T06:21:59.436+0000] {processor.py:186} INFO - Started process (PID=25435) to work on /opt/airflow/dags/products_dag.py
+[2025-03-10T06:21:59.443+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/products_dag.py for tasks to queue
+[2025-03-10T06:21:59.452+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:59.451+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/products_dag.py
+[2025-03-10T06:21:59.719+0000] {processor.py:925} INFO - DAG(s) 'products_data_validation' retrieved from /opt/airflow/dags/products_dag.py
+[2025-03-10T06:21:59.866+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:59.865+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:22:00.068+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:22:00.058+0000] {dag.py:4180} INFO - Setting next_dagrun for products_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:22:00.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/products_dag.py took 0.776 seconds

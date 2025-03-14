@@ -1,0 +1,314 @@
+product_id,product_name,total_quantity,store_coverage,avg_stock_per_store
+1,Trek 820 - 2016,55,3,18.33
+2,Ritchey Timberwolf Frameset - 2016,45,3,15.0
+3,Surly Wednesday Frameset - 2016,34,3,11.33
+4,Trek Fuel Ex 8 29 - 2016,36,3,12.0
+5,Heller Shagamaw Frame - 2016,26,3,8.67
+6,Surly Ice Cream Truck Frameset - 2016,38,3,12.67
+7,Trek Slash 8 27.5 - 2016,28,3,9.33
+8,Trek Remedy 29 Carbon Frameset - 2016,13,3,4.33
+9,Trek Conduit+ - 2016,51,3,17.0
+10,Surly Straggler - 2016,49,3,16.33
+11,Surly Straggler 650B - 2016,59,3,19.67
+12,Electra Townie Original 21D - 2016,48,3,16.0
+13,Electra Cruiser 1 (24-Inch) - 2016,33,3,11.0
+14,Electra Girl'S Hawaii 1 (16-Inch) - 2015/2016,30,3,10.0
+15,Electra Moto 1 - 2016,31,3,10.33
+16,Electra Townie Original 7D Eq - 2016,43,3,14.33
+17,Pure Cycles Vine 8-Speed - 2016,27,3,9.0
+18,Pure Cycles Western 3-Speed - Women'S - 2015/2016,34,3,11.33
+19,Pure Cycles William 3-Speed - 2016,43,3,14.33
+20,Electra Townie Original 7D Eq - Women'S - 2016,65,3,21.67
+21,Electra Cruiser 1 (24-Inch) - 2016,48,3,16.0
+22,Electra Girl'S Hawaii 1 (16-Inch) - 2015/2016,49,3,16.33
+23,Electra Girl'S Hawaii 1 (20-Inch) - 2015/2016,29,3,9.67
+24,Electra Townie Original 21D - 2016,44,3,14.67
+25,Electra Townie Original 7D - 2015/2016,43,3,14.33
+26,Electra Townie Original 7D Eq - 2016,45,3,15.0
+27,Surly Big Dummy Frameset - 2017,52,3,17.33
+28,Surly Karate Monkey 27.5+ Frameset - 2017,65,3,21.67
+29,Trek X-Caliber 8 - 2017,53,3,17.67
+30,Surly Ice Cream Truck Frameset - 2017,70,3,23.33
+31,Surly Wednesday - 2017,22,3,7.33
+32,Trek Farley Alloy Frameset - 2017,27,3,9.0
+33,Surly Wednesday Frameset - 2017,32,3,10.67
+34,Trek Session Dh 27.5 Carbon Frameset - 2017,32,3,10.67
+35,Sun Bicycles Spider 3I - 2017,46,3,15.33
+36,Surly Troll Frameset - 2017,69,3,23.0
+37,Haro Flightline One St - 2017,47,3,15.67
+38,Haro Flightline Two 26 Plus - 2017,54,3,18.0
+39,Trek Stache 5 - 2017,52,3,17.33
+40,Trek Fuel Ex 9.8 29 - 2017,41,3,13.67
+41,Haro Shift R3 - 2017,41,3,13.67
+42,Trek Fuel Ex 5 27.5 Plus - 2017,25,3,8.33
+43,Trek Fuel Ex 9.8 27.5 Plus - 2017,30,3,10.0
+44,Haro Sr 1.1 - 2017,51,3,17.0
+45,Haro Sr 1.2 - 2017,29,3,9.67
+46,Haro Sr 1.3 - 2017,53,3,17.67
+47,Trek Remedy 9.8 - 2017,35,3,11.67
+48,Trek Emonda S 4 - 2017,27,3,9.0
+49,Trek Domane Sl 6 - 2017,16,3,5.33
+50,Trek Silque Slr 7 Women'S - 2017,61,3,20.33
+51,Trek Silque Slr 8 Women'S - 2017,12,3,4.0
+52,Surly Steamroller - 2017,49,3,16.33
+53,Surly Ogre Frameset - 2017,42,3,14.0
+54,Trek Domane Sl Disc Frameset - 2017,30,3,10.0
+55,Trek Domane S 6 - 2017,21,3,7.0
+56,Trek Domane Slr 6 Disc - 2017,54,3,18.0
+57,Trek Emonda S 5 - 2017,37,3,12.33
+58,Trek Madone 9.2 - 2017,43,3,14.33
+59,Trek Domane S 5 Disc - 2017,39,3,13.0
+60,Sun Bicycles Electrolite - 2017,27,3,9.0
+61,Trek Powerfly 8 Fs Plus - 2017,78,3,26.0
+62,Trek Boone 7 - 2017,29,3,9.67
+63,Trek Boone Race Shop Limited - 2017,17,3,5.67
+64,Electra Townie Original 7D - 2017,82,3,27.33
+65,Sun Bicycles Lil Bolt Type-R - 2017,27,3,9.0
+66,Sun Bicycles Revolutions 24 - 2017,37,3,12.33
+67,Sun Bicycles Revolutions 24 - Girl'S - 2017,33,3,11.0
+68,Sun Bicycles Cruz 3 - 2017,71,3,23.67
+69,Sun Bicycles Cruz 7 - 2017,55,3,18.33
+70,Electra Amsterdam Original 3I - 2015/2017,11,3,3.67
+71,Sun Bicycles Atlas X-Type - 2017,68,3,22.67
+72,Sun Bicycles Biscayne Tandem 7 - 2017,16,3,5.33
+73,Sun Bicycles Brickell Tandem 7 - 2017,30,3,10.0
+74,Electra Cruiser Lux 1 - 2017,49,3,16.33
+75,Electra Cruiser Lux Fat Tire 1 Ladies - 2017,63,3,21.0
+76,"Electra Girl'S Hawaii 1 16"" - 2017",58,3,19.33
+77,Electra Glam Punk 3I Ladies' - 2017,64,3,21.33
+78,Sun Bicycles Biscayne Tandem Cb - 2017,36,3,12.0
+79,Sun Bicycles Boardwalk (24-Inch Wheels) - 2017,71,3,23.67
+80,Sun Bicycles Brickell Tandem Cb - 2017,60,3,20.0
+81,Electra Amsterdam Fashion 7I Ladies' - 2017,62,3,20.67
+82,Electra Amsterdam Original 3I Ladies' - 2017,12,3,4.0
+83,Trek Boy'S Kickster - 2015/2017,57,3,19.0
+84,Sun Bicycles Lil Kitt'N - 2017,48,3,16.0
+85,Haro Downtown 16 - 2017,44,3,14.67
+86,Trek Girl'S Kickster - 2017,70,3,23.33
+87,Trek Precaliber 12 Boys - 2017,57,3,19.0
+88,Trek Precaliber 12 Girls - 2017,43,3,14.33
+89,Trek Precaliber 16 Boys - 2017,39,3,13.0
+90,Trek Precaliber 16 Girls - 2017,39,3,13.0
+91,Trek Precaliber 24 (21-Speed) - Girls - 2017,16,3,5.33
+92,Haro Shredder 20 - 2017,50,3,16.67
+93,Haro Shredder 20 Girls - 2017,62,3,20.67
+94,Haro Shredder Pro 20 - 2017,23,3,7.67
+95,"Electra Girl'S Hawaii 1 16"" - 2017",49,3,16.33
+96,Electra Moto 3I (20-Inch) - Boy'S - 2017,43,3,14.33
+97,Electra Savannah 3I (20-Inch) - Girl'S - 2017,63,3,21.0
+98,Electra Straight 8 3I (20-Inch) - Boy'S - 2017,47,3,15.67
+99,Electra Sugar Skulls 1 (20-Inch) - Girl'S - 2017,71,3,23.67
+100,Electra Townie 3I Eq (20-Inch) - Boys' - 2017,55,3,18.33
+101,Electra Townie 7D (20-Inch) - Boys' - 2017,38,3,12.67
+102,Electra Townie Original 7D - 2017,43,3,14.33
+103,Sun Bicycles Streamway 3 - 2017,24,3,8.0
+104,Sun Bicycles Streamway - 2017,73,3,24.33
+105,Sun Bicycles Streamway 7 - 2017,11,3,3.67
+106,Sun Bicycles Cruz 3 - 2017,38,3,12.67
+107,Sun Bicycles Cruz 7 - 2017,60,3,20.0
+108,Sun Bicycles Cruz 3 - Women'S - 2017,67,3,22.33
+109,Sun Bicycles Cruz 7 - Women'S - 2017,79,3,26.33
+110,Sun Bicycles Drifter 7 - 2017,19,3,6.33
+111,Sun Bicycles Drifter 7 - Women'S - 2017,46,3,15.33
+112,Trek 820 - 2018,42,3,14.0
+113,Trek Marlin 5 - 2018,54,3,18.0
+114,Trek Marlin 6 - 2018,27,3,9.0
+115,Trek Fuel Ex 8 29 - 2018,54,3,18.0
+116,Trek Marlin 7 - 2017/2018,71,3,23.67
+117,Trek Ticket S Frame - 2018,56,3,18.67
+118,Trek X-Caliber 8 - 2018,46,3,15.33
+119,Trek Kids' Neko - 2018,69,3,23.0
+120,Trek Fuel Ex 7 29 - 2018,64,3,21.33
+121,Surly Krampus Frameset - 2018,26,3,8.67
+122,Surly Troll Frameset - 2018,41,3,13.67
+123,Trek Farley Carbon Frameset - 2018,41,3,13.67
+124,Surly Krampus - 2018,38,3,12.67
+125,Trek Kids' Dual Sport - 2018,34,3,11.33
+126,Surly Big Fat Dummy Frameset - 2018,46,3,15.33
+127,Surly Pack Rat Frameset - 2018,28,3,9.33
+128,Surly Ecr 27.5 - 2018,59,3,19.67
+129,Trek X-Caliber 7 - 2018,52,3,17.33
+130,Trek Stache Carbon Frameset - 2018,59,3,19.67
+131,Heller Bloodhound Trail - 2018,52,3,17.33
+132,Trek Procal Al Frameset - 2018,23,3,7.67
+133,Trek Procaliber Frameset - 2018,53,3,17.67
+134,Trek Remedy 27.5 C Frameset - 2018,56,3,18.67
+135,Trek X-Caliber Frameset - 2018,60,3,20.0
+136,Trek Procaliber 6 - 2018,24,3,8.0
+137,Heller Shagamaw Gx1 - 2018,30,3,10.0
+138,Trek Fuel Ex 5 Plus - 2018,39,3,13.0
+139,Trek Remedy 7 27.5 - 2018,62,3,20.67
+140,Trek Remedy 9.8 27.5 - 2018,19,3,6.33
+141,Trek Stache 5 - 2018,53,3,17.67
+142,Trek Fuel Ex 8 29 Xt - 2018,75,3,25.0
+143,Trek Domane Alr 3 - 2018,40,3,13.33
+144,Trek Domane Alr 4 Disc - 2018,20,3,6.67
+145,Trek Domane Alr 5 Disc - 2018,39,3,13.0
+146,Trek Domane Slr 6 - 2018,18,3,6.0
+147,Trek Domane Alr 5 Gravel - 2018,24,3,8.0
+148,Trek Domane Sl 8 Disc - 2018,39,3,13.0
+149,Trek Domane Slr 8 Disc - 2018,24,3,8.0
+150,Trek Emonda Sl 7 - 2018,50,3,16.67
+151,Trek Domane Alr 4 Disc Women'S - 2018,27,3,9.0
+152,Trek Domane Sl 5 Disc Women'S - 2018,34,3,11.33
+153,Trek Domane Sl 7 Women'S - 2018,53,3,17.67
+154,Trek Domane Slr 6 Disc Women'S - 2018,44,3,14.67
+155,Trek Domane Slr 9 Disc - 2018,54,3,18.0
+156,Trek Domane Sl Frameset - 2018,35,3,11.67
+157,Trek Domane Sl Frameset Women'S - 2018,65,3,21.67
+158,Trek Crossrip 1 - 2018,28,3,9.33
+159,Trek Emonda Alr 6 - 2018,54,3,18.0
+160,Trek Emonda Slr 6 - 2018,31,3,10.33
+161,Surly Ecr - 2018,37,3,12.33
+162,Trek Emonda Sl 6 Disc - 2018,43,3,14.33
+163,Surly Pack Rat - 2018,41,3,13.67
+164,Surly Straggler 650B - 2018,42,3,14.0
+165,Trek 1120 - 2018,41,3,13.67
+166,Trek Domane Al 2 Women'S - 2018,77,3,25.67
+167,Surly Ecr Frameset - 2018,37,3,12.33
+168,Surly Straggler - 2018,52,3,17.33
+169,Trek Emonda Slr 8 - 2018,29,3,9.67
+170,Trek Crossrip 2 - 2018,29,3,9.67
+171,Trek Domane Sl 6 - 2018,42,3,14.0
+172,Trek Domane Alr Disc Frameset - 2018,41,3,13.67
+173,Trek Domane Alr Frameset - 2018,34,3,11.33
+174,Trek Domane Slr Disc Frameset - 2018,35,3,11.67
+175,Trek Domane Slr Frameset - 2018,5,3,1.67
+176,Trek Madone 9 Frameset - 2018,43,3,14.33
+177,Trek Domane Slr 6 Disc - 2018,30,3,10.0
+178,Trek Domane Al 2 - 2018,36,3,12.0
+179,Trek Domane Al 3 - 2018,52,3,17.33
+180,Trek Domane Al 3 Women'S - 2018,14,3,4.67
+181,Trek Domane Sl 5 - 2018,56,3,18.67
+182,Trek Domane Sl 5 Disc - 2018,77,3,25.67
+183,Trek Domane Sl 5 Women'S - 2018,63,3,21.0
+184,Trek Domane Sl 6 Disc - 2018,25,3,8.33
+185,Trek Conduit+ - 2018,22,3,7.33
+186,Trek Crossrip+ - 2018,47,3,15.67
+187,Trek Neko+ - 2018,28,3,9.33
+188,Trek Xm700+ Lowstep - 2018,86,3,28.67
+189,Trek Lift+ Lowstep - 2018,39,3,13.0
+190,Trek Dual Sport+ - 2018,59,3,19.67
+191,Electra Loft Go! 8I - 2018,59,3,19.67
+192,Electra Townie Go! 8I - 2017/2018,30,3,10.0
+193,Trek Lift+ - 2018,56,3,18.67
+194,Trek Xm700+ - 2018,59,3,19.67
+195,Electra Townie Go! 8I Ladies' - 2018,40,3,13.33
+196,Trek Verve+ - 2018,79,3,26.33
+197,Trek Verve+ Lowstep - 2018,40,3,13.33
+198,Electra Townie Commute Go! - 2018,28,3,9.33
+199,Electra Townie Commute Go! Ladies' - 2018,20,3,6.67
+200,Trek Powerfly 5 - 2018,67,3,22.33
+201,Trek Powerfly 5 Fs - 2018,70,3,23.33
+202,Trek Powerfly 5 Women'S - 2018,17,3,5.67
+203,Trek Powerfly 7 Fs - 2018,17,3,5.67
+204,Trek Super Commuter+ 7 - 2018,64,3,21.33
+205,Trek Super Commuter+ 8S - 2018,25,3,8.33
+206,Trek Boone 5 Disc - 2018,48,3,16.0
+207,Trek Boone 7 Disc - 2018,64,3,21.33
+208,Trek Crockett 5 Disc - 2018,37,3,12.33
+209,Trek Crockett 7 Disc - 2018,34,3,11.33
+210,Surly Straggler - 2018,57,3,19.0
+211,Surly Straggler 650B - 2018,20,3,6.67
+212,Electra Townie Original 21D - 2018,62,3,20.67
+213,Electra Cruiser 1 - 2016/2017/2018,34,3,11.33
+214,Electra Tiger Shark 3I - 2018,41,3,13.67
+215,Electra Queen Of Hearts 3I - 2018,24,3,8.0
+216,Electra Super Moto 8I - 2018,35,3,11.67
+217,Electra Straight 8 3I - 2018,37,3,12.33
+218,Electra Cruiser 7D - 2016/2017/2018,74,3,24.67
+219,Electra Moto 3I - 2018,75,3,25.0
+220,Electra Cruiser 1 Ladies' - 2018,10,3,3.33
+221,Electra Cruiser 7D Ladies' - 2016/2018,44,3,14.67
+222,Electra Cruiser 1 Tall - 2016/2018,54,3,18.0
+223,Electra Cruiser Lux 3I - 2018,39,3,13.0
+224,Electra Cruiser Lux 7D - 2018,43,3,14.33
+225,Electra Delivery 3I - 2016/2017/2018,47,3,15.67
+226,Electra Townie Original 21D Eq - 2017/2018,37,3,12.33
+227,Electra Cruiser 7D (24-Inch) Ladies' - 2016/2018,53,3,17.67
+228,Electra Cruiser 7D Tall - 2016/2018,58,3,19.33
+229,Electra Cruiser Lux 1 - 2016/2018,63,3,21.0
+230,Electra Cruiser Lux 1 Ladies' - 2018,61,3,20.33
+231,Electra Cruiser Lux 3I Ladies' - 2018,39,3,13.0
+232,Electra Cruiser Lux 7D Ladies' - 2018,32,3,10.67
+233,Electra Cruiser Lux Fat Tire 7D - 2018,39,3,13.0
+234,Electra Daydreamer 3I Ladies' - 2018,49,3,16.33
+235,Electra Koa 3I Ladies' - 2018,12,3,4.0
+236,Electra Morningstar 3I Ladies' - 2018,28,3,9.33
+237,Electra Relic 3I - 2018,72,3,24.0
+238,Electra Townie Balloon 8D Eq - 2016/2017/2018,38,3,12.67
+239,Electra Townie Balloon 8D Eq Ladies' - 2016/2017/2018,74,3,24.67
+240,Electra Townie Commute 27D Ladies - 2018,62,3,20.67
+241,Electra Townie Commute 8D - 2018,49,3,16.33
+242,Electra Townie Commute 8D Ladies' - 2018,17,3,5.67
+243,Electra Townie Original 21D Eq Ladies' - 2018,36,3,12.0
+244,Electra Townie Original 21D Ladies' - 2018,16,3,5.33
+245,Electra Townie Original 3I Eq - 2017/2018,31,3,10.33
+246,Electra Townie Original 3I Eq Ladies' - 2018,17,3,5.67
+247,Electra Townie Original 7D Eq - 2018,34,3,11.33
+248,Electra Townie Original 7D Eq Ladies' - 2017/2018,51,3,17.0
+249,Electra White Water 3I - 2018,43,3,14.33
+250,Electra Townie Go! 8I - 2017/2018,42,3,14.0
+251,Electra Townie Commute Go! - 2018,12,3,4.0
+252,Electra Townie Commute Go! Ladies' - 2018,75,3,25.0
+253,Electra Townie Go! 8I Ladies' - 2018,60,3,20.0
+254,Electra Townie Balloon 3I Eq - 2017/2018,35,3,11.67
+255,Electra Townie Balloon 7I Eq Ladies' - 2017/2018,42,3,14.0
+256,Electra Townie Commute 27D - 2018,29,3,9.67
+257,Electra Amsterdam Fashion 3I Ladies' - 2017/2018,47,3,15.67
+258,Electra Amsterdam Royal 8I - 2017/2018,45,3,15.0
+259,Electra Amsterdam Royal 8I Ladies - 2018,26,3,8.67
+260,Electra Townie Balloon 3I Eq Ladies' - 2018,45,3,15.0
+261,Electra Townie Balloon 7I Eq - 2018,31,3,10.33
+262,Trek Mt 201 - 2018,43,3,14.33
+263,Strider Classic 12 Balance Bike - 2018,46,3,15.33
+264,Strider Sport 16 - 2018,36,3,12.0
+265,Strider Strider 20 Sport - 2018,54,3,18.0
+266,Trek Superfly 20 - 2018,37,3,12.33
+267,Trek Precaliber 12 Girl'S - 2018,60,3,20.0
+268,Trek Kickster - 2018,43,3,14.33
+269,Trek Precaliber 12 Boy'S - 2018,52,3,17.33
+270,Trek Precaliber 16 Boy'S - 2018,37,3,12.33
+271,Trek Precaliber 16 Girl'S - 2018,55,3,18.33
+272,Trek Precaliber 20 6-Speed Boy'S - 2018,27,3,9.0
+273,Trek Precaliber 20 6-Speed Girl'S - 2018,67,3,22.33
+274,Trek Precaliber 20 Boy'S - 2018,41,3,13.67
+275,Trek Precaliber 20 Girl'S - 2018,54,3,18.0
+276,Trek Precaliber 24 (7-Speed) - Boys - 2018,30,3,10.0
+277,Trek Precaliber 24 21-Speed Boy'S - 2018,43,3,14.33
+278,Trek Precaliber 24 21-Speed Girl'S - 2018,40,3,13.33
+279,Trek Precaliber 24 7-Speed Girl'S - 2018,50,3,16.67
+280,Trek Superfly 24 - 2017/2018,35,3,11.67
+281,Electra Cruiser 7D (24-Inch) Ladies' - 2016/2018,16,3,5.33
+282,Electra Cyclosaurus 1 (16-Inch) - Boy'S - 2018,32,3,10.67
+283,Electra Heartchya 1 (20-Inch) - Girl'S - 2018,39,3,13.0
+284,Electra Savannah 1 (20-Inch) - Girl'S - 2018,59,3,19.67
+285,Electra Soft Serve 1 (16-Inch) - Girl'S - 2018,44,3,14.67
+286,"Electra Starship 1 16"" - 2018",38,3,12.67
+287,Electra Straight 8 1 (16-Inch) - Boy'S - 2018,43,3,14.33
+288,Electra Straight 8 1 (20-Inch) - Boy'S - 2018,24,3,8.0
+289,"Electra Superbolt 1 20"" - 2018",9,3,3.0
+290,"Electra Superbolt 3I 20"" - 2018",43,3,14.33
+291,Electra Sweet Ride 1 (20-Inch) - Girl'S - 2018,41,3,13.67
+292,Electra Sweet Ride 3I (20-Inch) - Girls' - 2018,68,3,22.67
+293,Electra Tiger Shark 1 (20-Inch) - Boys' - 2018,44,3,14.67
+294,Electra Tiger Shark 3I (20-Inch) - Boys' - 2018,23,3,7.67
+295,"Electra Treasure 1 20"" - 2018",48,3,16.0
+296,"Electra Treasure 3I 20"" - 2018",29,3,9.67
+297,"Electra Under-The-Sea 1 16"" - 2018",51,3,17.0
+298,Electra Water Lily 1 (16-Inch) - Girl'S - 2018,67,3,22.33
+299,Electra Townie Original 21D - 2018,47,3,15.67
+300,Electra Townie Balloon 3I Eq Ladies' - 2018,23,3,7.67
+301,Electra Townie Balloon 7I Eq - 2018,65,3,21.67
+302,Electra Townie Original 1 - 2018,12,3,4.0
+303,Electra Townie Go! 8I - 2017/2018,48,3,16.0
+304,Electra Townie Original 21D Eq - 2017/2018,44,3,14.67
+305,Electra Townie Balloon 3I Eq - 2017/2018,55,3,18.33
+306,Electra Townie Balloon 7I Eq Ladies' - 2017/2018,45,3,15.0
+307,Electra Townie Balloon 8D Eq - 2016/2017/2018,52,3,17.33
+308,Electra Townie Balloon 8D Eq Ladies' - 2016/2017/2018,47,3,15.67
+309,Electra Townie Commute 27D - 2018,46,3,15.33
+310,Electra Townie Commute 27D Ladies - 2018,31,3,10.33
+311,Electra Townie Commute 8D - 2018,70,3,23.33
+312,Electra Townie Commute 8D Ladies' - 2018,43,3,14.33
+313,Electra Townie Original 1 Ladies' - 2018,38,3,12.67

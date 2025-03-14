@@ -1,0 +1,36 @@
+[2025-03-11T06:27:32.504+0000] {processor.py:186} INFO - Started process (PID=61824) to work on /opt/airflow/dags/category_analysis_dag.py
+[2025-03-11T06:27:32.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/category_analysis_dag.py for tasks to queue
+[2025-03-11T06:27:32.508+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:27:32.507+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/category_analysis_dag.py
+[2025-03-11T06:27:32.560+0000] {processor.py:925} INFO - DAG(s) 'category_analysis' retrieved from /opt/airflow/dags/category_analysis_dag.py
+[2025-03-11T06:27:32.694+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:27:32.693+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:category_analysis
+[2025-03-11T06:27:32.706+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:27:32.705+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:category_analysis
+[2025-03-11T06:27:32.713+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:27:32.713+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:category_analysis
+[2025-03-11T06:27:32.722+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:27:32.721+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:category_analysis
+[2025-03-11T06:27:32.728+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:27:32.728+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:category_analysis
+[2025-03-11T06:27:32.735+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:27:32.735+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:category_analysis
+[2025-03-11T06:27:32.744+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:27:32.744+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:category_analysis
+[2025-03-11T06:27:32.745+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:27:32.744+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-11T06:27:32.759+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:27:32.759+0000] {dag.py:3262} INFO - Creating ORM DAG for category_analysis
+[2025-03-11T06:27:32.772+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:27:32.772+0000] {dag.py:4180} INFO - Setting next_dagrun for category_analysis to 2025-03-05 13:00:00+00:00, run_after=2025-03-12 13:00:00+00:00
+[2025-03-11T06:27:32.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/category_analysis_dag.py took 0.302 seconds
+[2025-03-11T06:28:03.678+0000] {processor.py:186} INFO - Started process (PID=61890) to work on /opt/airflow/dags/category_analysis_dag.py
+[2025-03-11T06:28:03.680+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/category_analysis_dag.py for tasks to queue
+[2025-03-11T06:28:03.682+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:28:03.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/category_analysis_dag.py
+[2025-03-11T06:28:03.732+0000] {processor.py:925} INFO - DAG(s) 'category_analysis' retrieved from /opt/airflow/dags/category_analysis_dag.py
+[2025-03-11T06:28:03.767+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:28:03.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-11T06:28:03.811+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:28:03.811+0000] {dag.py:4180} INFO - Setting next_dagrun for category_analysis to 2025-03-05 13:00:00+00:00, run_after=2025-03-12 13:00:00+00:00
+[2025-03-11T06:28:03.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/category_analysis_dag.py took 0.174 seconds
+[2025-03-11T06:28:34.517+0000] {processor.py:186} INFO - Started process (PID=61956) to work on /opt/airflow/dags/category_analysis_dag.py
+[2025-03-11T06:28:34.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/category_analysis_dag.py for tasks to queue
+[2025-03-11T06:28:34.520+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:28:34.520+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/category_analysis_dag.py
+[2025-03-11T06:28:34.556+0000] {processor.py:925} INFO - DAG(s) 'category_analysis' retrieved from /opt/airflow/dags/category_analysis_dag.py
+[2025-03-11T06:28:34.580+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:28:34.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-11T06:28:34.613+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:28:34.613+0000] {dag.py:4180} INFO - Setting next_dagrun for category_analysis to 2025-03-05 13:00:00+00:00, run_after=2025-03-12 13:00:00+00:00
+[2025-03-11T06:28:34.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/category_analysis_dag.py took 0.126 seconds
+[2025-03-11T06:29:05.091+0000] {processor.py:186} INFO - Started process (PID=62022) to work on /opt/airflow/dags/category_analysis_dag.py
+[2025-03-11T06:29:05.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/category_analysis_dag.py for tasks to queue
+[2025-03-11T06:29:05.095+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:29:05.094+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/category_analysis_dag.py
+[2025-03-11T06:29:05.147+0000] {processor.py:925} INFO - DAG(s) 'category_analysis' retrieved from /opt/airflow/dags/category_analysis_dag.py
+[2025-03-11T06:29:05.183+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:29:05.182+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-11T06:29:05.226+0000] {logging_mixin.py:190} INFO - [2025-03-11T06:29:05.226+0000] {dag.py:4180} INFO - Setting next_dagrun for category_analysis to 2025-03-05 13:00:00+00:00, run_after=2025-03-12 13:00:00+00:00
+[2025-03-11T06:29:05.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/category_analysis_dag.py took 0.171 seconds

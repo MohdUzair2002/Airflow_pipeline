@@ -1,0 +1,147 @@
+[2025-03-10T08:03:14.539+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-10T08:03:15.680+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: validate_all_tables.category_sales_analysis manual__2025-03-10T08:01:45.227024+00:00 [queued]>
+[2025-03-10T08:03:15.809+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: validate_all_tables.category_sales_analysis manual__2025-03-10T08:01:45.227024+00:00 [queued]>
+[2025-03-10T08:03:15.830+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-03-10T08:03:15.996+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): category_sales_analysis> on 2025-03-10 08:01:45.227024+00:00
+[2025-03-10T08:03:16.032+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=4059) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-10T08:03:16.045+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'validate_all_tables', 'category_sales_analysis', 'manual__2025-03-10T08:01:45.227024+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/validate_all_tables_dag.py', '--cfg-path', '/tmp/tmp7eynhf3v']
+[2025-03-10T08:03:16.064+0000] {standard_task_runner.py:72} INFO - Started process 4061 to run task
+[2025-03-10T08:03:16.078+0000] {standard_task_runner.py:105} INFO - Job 124: Subtask category_sales_analysis
+[2025-03-10T08:03:16.537+0000] {task_command.py:467} INFO - Running <TaskInstance: validate_all_tables.category_sales_analysis manual__2025-03-10T08:01:45.227024+00:00 [running]> on host efacfdd0be48
+[2025-03-10T08:03:16.964+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='validate_all_tables' AIRFLOW_CTX_TASK_ID='category_sales_analysis' AIRFLOW_CTX_EXECUTION_DATE='2025-03-10T08:01:45.227024+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-10T08:01:45.227024+00:00'
+[2025-03-10T08:03:16.968+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-10T08:03:16.969+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-10T08:03:16.972+0000] {logging_mixin.py:190} INFO - Current task name:category_sales_analysis state:running start_date:2025-03-10 08:03:15.685278+00:00
+[2025-03-10T08:03:16.973+0000] {logging_mixin.py:190} INFO - Dag name:validate_all_tables and current dag run status:running
+[2025-03-10T08:03:16.974+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-10T08:03:17.070+0000] {logging_mixin.py:190} INFO - Category sales analysis failed: 'list_price'
+[2025-03-10T08:03:17.071+0000] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'list_price'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/validate_all_tables_dag.py", line 31, in analyze_category_sales
+    sales_data['sale_amount'] = sales_data['quantity'] * sales_data['list_price'] * (1 - sales_data['discount'])
+                                                         ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'list_price'
+[2025-03-10T08:03:17.131+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-03-10T08:03:17.136+0000] {logging_mixin.py:190} INFO - Task start:2025-03-10 08:03:15.685278+00:00 end:2025-03-10 08:03:17.129854+00:00 duration:1.444576
+[2025-03-10T08:03:17.139+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): category_sales_analysis> dag:<DAG: validate_all_tables> dagrun:<DagRun validate_all_tables @ 2025-03-10 08:01:45.227024+00:00: manual__2025-03-10T08:01:45.227024+00:00, state:running, queued_at: 2025-03-10 08:01:45.258507+00:00. externally triggered: True>
+[2025-03-10T08:03:17.142+0000] {logging_mixin.py:190} INFO - Failure caused by 'list_price'
+[2025-03-10T08:03:17.144+0000] {taskinstance.py:1226} INFO - Marking task as UP_FOR_RETRY. dag_id=validate_all_tables, task_id=category_sales_analysis, run_id=manual__2025-03-10T08:01:45.227024+00:00, execution_date=20250310T080145, start_date=20250310T080315, end_date=20250310T080317
+[2025-03-10T08:03:17.337+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-10T08:03:17.338+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 124 for task category_sales_analysis ('list_price'; 4061)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'list_price'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/validate_all_tables_dag.py", line 31, in analyze_category_sales
+    sales_data['sale_amount'] = sales_data['quantity'] * sales_data['list_price'] * (1 - sales_data['discount'])
+                                                         ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'list_price'
+[2025-03-10T08:03:17.458+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-03-10T08:03:17.517+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

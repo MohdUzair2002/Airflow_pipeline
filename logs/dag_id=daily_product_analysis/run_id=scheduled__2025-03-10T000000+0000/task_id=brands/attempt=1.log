@@ -1,0 +1,29 @@
+[2025-03-11T10:33:04.753+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-11T10:33:05.227+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: daily_product_analysis.brands scheduled__2025-03-10T00:00:00+00:00 [queued]>
+[2025-03-11T10:33:05.465+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: daily_product_analysis.brands scheduled__2025-03-10T00:00:00+00:00 [queued]>
+[2025-03-11T10:33:05.467+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-03-11T10:33:05.969+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): brands> on 2025-03-10 00:00:00+00:00
+[2025-03-11T10:33:06.089+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'daily_product_analysis', 'brands', 'scheduled__2025-03-10T00:00:00+00:00', '--job-id', '277', '--raw', '--subdir', 'DAGS_FOLDER/scheduled.py', '--cfg-path', '/tmp/tmpmlnp2s39']
+[2025-03-11T10:33:06.101+0000] {standard_task_runner.py:105} INFO - Job 277: Subtask brands
+[2025-03-11T10:33:06.139+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=9267) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-11T10:33:06.156+0000] {standard_task_runner.py:72} INFO - Started process 9290 to run task
+[2025-03-11T10:33:06.915+0000] {task_command.py:467} INFO - Running <TaskInstance: daily_product_analysis.brands scheduled__2025-03-10T00:00:00+00:00 [running]> on host efacfdd0be48
+[2025-03-11T10:33:08.333+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='daily_product_analysis' AIRFLOW_CTX_TASK_ID='brands' AIRFLOW_CTX_EXECUTION_DATE='2025-03-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-10T00:00:00+00:00'
+[2025-03-11T10:33:08.340+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-11T10:33:08.341+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-11T10:33:08.348+0000] {logging_mixin.py:190} INFO - Current task name:brands state:running start_date:2025-03-11 10:33:05.237774+00:00
+[2025-03-11T10:33:08.352+0000] {logging_mixin.py:190} INFO - Dag name:daily_product_analysis and current dag run status:running
+[2025-03-11T10:33:08.354+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-11T10:33:11.023+0000] {logging_mixin.py:190} INFO - Validation successful. Found 9 brand records.
+[2025-03-11T10:33:11.080+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-11T10:33:11.150+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-11T10:33:11.153+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=daily_product_analysis, task_id=brands, run_id=scheduled__2025-03-10T00:00:00+00:00, execution_date=20250310T000000, start_date=20250311T103305, end_date=20250311T103311
+[2025-03-11T10:33:11.724+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-11T10:33:11.734+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-11T10:33:11.745+0000] {logging_mixin.py:190} INFO - Dag name:daily_product_analysis queued_at:2025-03-11 10:32:44.582675+00:00
+[2025-03-11T10:33:11.749+0000] {logging_mixin.py:190} INFO - Task hostname:efacfdd0be48 operator:PythonOperator
+[2025-03-11T10:33:11.927+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-11T10:33:12.286+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T10:33:12.294+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

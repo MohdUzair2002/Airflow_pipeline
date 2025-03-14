@@ -1,0 +1,106 @@
+[2025-03-10T06:19:19.583+0000] {processor.py:186} INFO - Started process (PID=25097) to work on /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:19:19.585+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/staffs_dag.py for tasks to queue
+[2025-03-10T06:19:19.589+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:19.588+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:19:19.726+0000] {processor.py:925} INFO - DAG(s) 'staffs_data_validation' retrieved from /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:19:20.334+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.333+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:staffs_data_validation
+[2025-03-10T06:19:20.437+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.436+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:staffs_data_validation
+[2025-03-10T06:19:20.477+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.476+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:staffs_data_validation
+[2025-03-10T06:19:20.517+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.516+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:staffs_data_validation
+[2025-03-10T06:19:20.577+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.576+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:staffs_data_validation
+[2025-03-10T06:19:20.603+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.602+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:staffs_data_validation
+[2025-03-10T06:19:20.636+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.635+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:staffs_data_validation
+[2025-03-10T06:19:20.637+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.637+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:19:20.698+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.697+0000] {dag.py:3262} INFO - Creating ORM DAG for staffs_data_validation
+[2025-03-10T06:19:20.765+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:20.764+0000] {dag.py:4180} INFO - Setting next_dagrun for staffs_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:19:20.872+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/staffs_dag.py took 1.305 seconds
+[2025-03-10T06:19:51.452+0000] {processor.py:186} INFO - Started process (PID=25167) to work on /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:19:51.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/staffs_dag.py for tasks to queue
+[2025-03-10T06:19:51.458+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:51.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:19:51.503+0000] {processor.py:925} INFO - DAG(s) 'staffs_data_validation' retrieved from /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:19:51.560+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:51.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:19:51.686+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:19:51.677+0000] {dag.py:4180} INFO - Setting next_dagrun for staffs_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:19:51.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/staffs_dag.py took 0.351 seconds
+[2025-03-10T06:20:22.376+0000] {processor.py:186} INFO - Started process (PID=25238) to work on /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:20:22.380+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/staffs_dag.py for tasks to queue
+[2025-03-10T06:20:22.385+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:22.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:20:22.451+0000] {processor.py:925} INFO - DAG(s) 'staffs_data_validation' retrieved from /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:20:22.522+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:22.521+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:20:22.663+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:22.663+0000] {dag.py:4180} INFO - Setting next_dagrun for staffs_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:20:22.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/staffs_dag.py took 0.448 seconds
+[2025-03-10T06:20:53.201+0000] {processor.py:186} INFO - Started process (PID=25308) to work on /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:20:53.203+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/staffs_dag.py for tasks to queue
+[2025-03-10T06:20:53.205+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:53.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:20:53.237+0000] {processor.py:925} INFO - DAG(s) 'staffs_data_validation' retrieved from /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:20:53.269+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:53.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:20:53.314+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:20:53.313+0000] {dag.py:4180} INFO - Setting next_dagrun for staffs_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:20:53.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/staffs_dag.py took 0.155 seconds
+[2025-03-10T06:21:25.635+0000] {processor.py:186} INFO - Started process (PID=25365) to work on /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:21:25.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/staffs_dag.py for tasks to queue
+[2025-03-10T06:21:25.642+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:25.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:21:25.704+0000] {processor.py:925} INFO - DAG(s) 'staffs_data_validation' retrieved from /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:21:25.821+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:25.820+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:21:25.953+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:25.952+0000] {dag.py:4180} INFO - Setting next_dagrun for staffs_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:21:26.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/staffs_dag.py took 0.472 seconds
+[2025-03-10T06:21:58.096+0000] {processor.py:186} INFO - Started process (PID=25434) to work on /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:21:58.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/staffs_dag.py for tasks to queue
+[2025-03-10T06:21:58.154+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:58.151+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:21:58.533+0000] {processor.py:925} INFO - DAG(s) 'staffs_data_validation' retrieved from /opt/airflow/dags/staffs_dag.py
+[2025-03-10T06:21:58.647+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:58.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:21:58.847+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:21:58.846+0000] {dag.py:4180} INFO - Setting next_dagrun for staffs_data_validation to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:21:58.968+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 188, in _handle_dag_file_processing
+    result: tuple[int, int, int] = dag_file_processor.process_file(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 942, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 982, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 708, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 443, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 724, in _sync_to_db
+    DAG.bulk_write_to_db(dags.values(), processor_subdir=processor_subdir, session=session)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 3341, in bulk_write_to_db
+    DagCode.bulk_sync_to_db(filelocs, session=session)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagcode.py", line 123, in bulk_sync_to_db
+    os.path.getmtime(correct_maybe_zipped(fileloc)), tz=timezone.utc
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 67, in getmtime
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/staffs_dag.py'

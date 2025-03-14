@@ -1,0 +1,28 @@
+[2025-03-11T10:26:02.601+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-11T10:26:02.751+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weekly_category_analysis.validate_products manual__2025-03-11T10:25:41.084956+00:00 [queued]>
+[2025-03-11T10:26:02.804+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weekly_category_analysis.validate_products manual__2025-03-11T10:25:41.084956+00:00 [queued]>
+[2025-03-11T10:26:02.814+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-03-11T10:26:02.921+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): validate_products> on 2025-03-11 10:25:41.084956+00:00
+[2025-03-11T10:26:02.938+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=9171) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-11T10:26:02.942+0000] {standard_task_runner.py:72} INFO - Started process 9177 to run task
+[2025-03-11T10:26:02.947+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'weekly_category_analysis', 'validate_products', 'manual__2025-03-11T10:25:41.084956+00:00', '--job-id', '269', '--raw', '--subdir', 'DAGS_FOLDER/scheduled.py', '--cfg-path', '/tmp/tmpqb0y58o2']
+[2025-03-11T10:26:02.949+0000] {standard_task_runner.py:105} INFO - Job 269: Subtask validate_products
+[2025-03-11T10:26:03.237+0000] {task_command.py:467} INFO - Running <TaskInstance: weekly_category_analysis.validate_products manual__2025-03-11T10:25:41.084956+00:00 [running]> on host efacfdd0be48
+[2025-03-11T10:26:04.818+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='weekly_category_analysis' AIRFLOW_CTX_TASK_ID='validate_products' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T10:25:41.084956+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T10:25:41.084956+00:00'
+[2025-03-11T10:26:04.821+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-11T10:26:04.822+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-11T10:26:04.833+0000] {logging_mixin.py:190} INFO - Current task name:validate_products state:running start_date:2025-03-11 10:26:02.759191+00:00
+[2025-03-11T10:26:04.834+0000] {logging_mixin.py:190} INFO - Dag name:weekly_category_analysis and current dag run status:running
+[2025-03-11T10:26:04.835+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-11T10:26:04.898+0000] {logging_mixin.py:190} INFO - Validation successful. Found 321 product records.
+[2025-03-11T10:26:04.902+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-11T10:26:04.961+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-11T10:26:04.966+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=weekly_category_analysis, task_id=validate_products, run_id=manual__2025-03-11T10:25:41.084956+00:00, execution_date=20250311T102541, start_date=20250311T102602, end_date=20250311T102604
+[2025-03-11T10:26:05.152+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-11T10:26:05.169+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-11T10:26:05.186+0000] {logging_mixin.py:190} INFO - Dag name:weekly_category_analysis queued_at:2025-03-11 10:25:41.129480+00:00
+[2025-03-11T10:26:05.218+0000] {logging_mixin.py:190} INFO - Task hostname:efacfdd0be48 operator:PythonOperator
+[2025-03-11T10:26:05.328+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-11T10:26:05.376+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

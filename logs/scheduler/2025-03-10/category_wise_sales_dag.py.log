@@ -1,0 +1,22 @@
+[2025-03-10T06:54:22.347+0000] {processor.py:186} INFO - Started process (PID=28904) to work on /opt/airflow/dags/category_wise_sales_dag.py
+[2025-03-10T06:54:22.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/category_wise_sales_dag.py for tasks to queue
+[2025-03-10T06:54:22.354+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:54:22.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/category_wise_sales_dag.py
+[2025-03-10T06:54:22.503+0000] {processor.py:925} INFO - DAG(s) 'category_wise_sales' retrieved from /opt/airflow/dags/category_wise_sales_dag.py
+[2025-03-10T06:54:23.250+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:54:23.248+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:category_wise_sales
+[2025-03-10T06:54:23.296+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:54:23.295+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:category_wise_sales
+[2025-03-10T06:54:23.317+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:54:23.316+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:category_wise_sales
+[2025-03-10T06:54:23.426+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:54:23.425+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:category_wise_sales
+[2025-03-10T06:54:23.451+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:54:23.451+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:category_wise_sales
+[2025-03-10T06:54:23.485+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:54:23.485+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:category_wise_sales
+[2025-03-10T06:54:23.518+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:54:23.517+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:category_wise_sales
+[2025-03-10T06:54:23.525+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:54:23.525+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:54:23.572+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:54:23.571+0000] {dag.py:3262} INFO - Creating ORM DAG for category_wise_sales
+[2025-03-10T06:54:23.614+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:54:23.614+0000] {dag.py:4180} INFO - Setting next_dagrun for category_wise_sales to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:54:23.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/category_wise_sales_dag.py took 1.399 seconds
+[2025-03-10T06:54:54.247+0000] {processor.py:186} INFO - Started process (PID=28970) to work on /opt/airflow/dags/category_wise_sales_dag.py
+[2025-03-10T06:54:54.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/category_wise_sales_dag.py for tasks to queue
+[2025-03-10T06:54:54.264+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:54:54.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/category_wise_sales_dag.py
+[2025-03-10T06:54:54.328+0000] {processor.py:925} INFO - DAG(s) 'category_wise_sales' retrieved from /opt/airflow/dags/category_wise_sales_dag.py
+[2025-03-10T06:54:54.392+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:54:54.391+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T06:54:54.520+0000] {logging_mixin.py:190} INFO - [2025-03-10T06:54:54.520+0000] {dag.py:4180} INFO - Setting next_dagrun for category_wise_sales to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T06:54:54.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/category_wise_sales_dag.py took 0.413 seconds
